@@ -35,6 +35,26 @@ namespace MvcKnockOut.Controllers
             return View();
         }
 
+        public ActionResult ThreePage()
+        {
+            return View();
+        }
+
+        public ActionResult EasyStart()
+        {
+            return View();
+        }
+
+        public ActionResult SimplePage()
+        {
+            return View();
+        }
+
+        public ActionResult GridPage()
+        {
+            return View();
+        }
+
         public JsonResult GetData()
         {
             var news = _sportService.GetData();
